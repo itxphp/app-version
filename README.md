@@ -1,5 +1,5 @@
 # installing
-`composer require itx-utilities\app-version`
+`composer require itx-utilities/app-version`
 --- 
 # usage
 ```
