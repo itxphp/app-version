@@ -1,0 +1,26 @@
+{
+    "name": "itx-utilities/app-version",
+    "description": "get current android/ios app version",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ahmad Arafa",
+            "email": "ahmadmarafa@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "itx-utilities/dom-fetcher": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itx\\Utilities\\" :  "src/" ,
+            "Itx\\Utilities\\AppVersion\\Exceptions\\" : "src/Exceptions/" 
+        }
+    } ,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }  
+    }
+}
